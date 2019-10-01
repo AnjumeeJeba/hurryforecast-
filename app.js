@@ -127,7 +127,7 @@ function news() {
             button.className = "btn btn-outline-success";
             var url = document.createElement('a');
             url.href = data.articles[index].url;
-            url.innerHTML = "Visit";
+            url.innerHTML = "Read more...";
             button.appendChild(url);
 
             // apprend section
